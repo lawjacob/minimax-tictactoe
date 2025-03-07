@@ -12,8 +12,6 @@ def print_board(board):
             print("-----------")
 
 def main():
-    print("Welcome to Tic Tac Toe against AI!")
-    
     # Let the user choose their symbol
     user = input("Choose your symbol (X/O): ").upper()
     while user not in [X, O]:
