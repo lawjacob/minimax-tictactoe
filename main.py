@@ -1,4 +1,4 @@
-from aglos import initial_state, player, actions, result, terminal, winner, minimax, X, O, EMPTY
+from algos import initial_state, player, actions, result, terminal, winner, minimax, X, O, EMPTY
 
 def print_board(board):
     """
